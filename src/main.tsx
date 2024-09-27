@@ -1,5 +1,7 @@
-import { App } from '@/app'
 import '@/style/globals.css'
+
+import { App } from '@/app'
+
 import { StrictMode } from 'react'
 import type { Container } from 'react-dom'
 import { createRoot } from 'react-dom/client'
