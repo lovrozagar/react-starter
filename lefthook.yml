@@ -14,7 +14,7 @@ pre-commit:
       glob: "*.{json,js,ts,tsx}"
       run: bunx tsc --noEmit -p ./tsconfig.json
     3_build:
-      run: bunx next build
+      run: bunx tsc -b && vite build
 
 pre-push:
   commands:
